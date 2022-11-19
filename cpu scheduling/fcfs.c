@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main(){
-    
     printf("Enter the number of processes:");
     int size;
     scanf("%d",&size);
@@ -11,9 +10,6 @@ int main(){
         printf("Enter the execution time of process %d: ",pid[i]);
         scanf("%d",&arr[i]);
     }
-    // for(int j = 0;size > j; j++){
-    //     printf("Execution time of process %d is %d\n",pid[j],arr[j]);
-    // }
     int wt[size];
     int temp_wt = 0;
     float total_wt;
